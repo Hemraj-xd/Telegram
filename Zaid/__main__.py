@@ -11,9 +11,9 @@ for name in files:
         patt = Path(a.name)
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
-    
+
 print("Successfully Started Bot!")
-print("Visit @TheUpdatesChannel")
+print("Visit @dangi_x")
 
 if __name__ == "__main__":
     Zaid.run_until_disconnected()
